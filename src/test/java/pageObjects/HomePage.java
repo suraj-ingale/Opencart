@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,6 +30,14 @@ public class HomePage extends BasePage{
 	
 	public void clicLoginLink() {
 		loginlink.click();
+	}
+	
+	public @Nullable String getTitleOfHomePage() {
+		return driver.getTitle();
+	}
+	
+	public String getUrlOfHomePage() {
+		return driver.getCurrentUrl();
 	}
 
 }
