@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T22:35:06 IST" name="Suite" finished-at="2024-12-14T22:35:25 IST" duration-ms="18785">
+    <groups>
+      <group name="Sanity, Master">
+        <method signature="TC002_LoginToAccountTest.verify_Login()[pri:0, instance:testCases.TC002_LoginToAccountTest@506ae4d4]" name="verify_Login" class="testCases.TC002_LoginToAccountTest"/>
+      </group> <!-- Sanity, Master -->
+      <group name="Regression, Master">
+        <method signature="TC001_AccountRegistrationTest.verify_AccountRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@59505b48]" name="verify_AccountRegistration" class="testCases.TC001_AccountRegistrationTest"/>
+      </group> <!-- Regression, Master -->
+    </groups>
+    <test started-at="2024-12-14T22:35:06 IST" name="Test" finished-at="2024-12-14T22:35:25 IST" duration-ms="18785">
+      <class name="testCases.TC002_LoginToAccountTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginToAccountTest@506ae4d4]" started-at="2024-12-14T22:35:18 IST" name="setUp" finished-at="2024-12-14T22:35:22 IST" duration-ms="3595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Login()[pri:0, instance:testCases.TC002_LoginToAccountTest@506ae4d4]" started-at="2024-12-14T22:35:22 IST" name="verify_Login" finished-at="2024-12-14T22:35:25 IST" duration-ms="2809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginToAccountTest@506ae4d4]" started-at="2024-12-14T22:35:25 IST" name="tearDown" finished-at="2024-12-14T22:35:25 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginToAccountTest -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@59505b48]" started-at="2024-12-14T22:35:07 IST" name="setUp" finished-at="2024-12-14T22:35:13 IST" duration-ms="5992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_AccountRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@59505b48]" started-at="2024-12-14T22:35:13 IST" name="verify_AccountRegistration" finished-at="2024-12-14T22:35:18 IST" duration-ms="5227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AccountRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@59505b48]" started-at="2024-12-14T22:35:18 IST" name="tearDown" finished-at="2024-12-14T22:35:18 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
